@@ -8,7 +8,6 @@ const OpenStreetMap = dynamic(() => import('../component/OpenStreetMap'), {
 const index = () => {
   return (
     <>
-      <h1 className='text-center'>OpenStreetMap</h1>
       <OpenStreetMap />
     </>
   )
